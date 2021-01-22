@@ -1,36 +1,36 @@
 [alias] 
-	# Shortcuts
-	cp = cherry-pick
-	st = status
-	co = checkout
-	br = branch	
+  # Shortcuts
+  cp = cherry-pick
+  st = status
+  co = checkout
+  br = branch 
 
-	# Commit and specify message
-	ci = commit -m
+  # Commit and specify message
+  ci = commit -m
 
-    # Add untracked, remove deleted, and show status
-    adda = !git add -A && git status
+  # Add untracked, remove deleted, and show status
+  adda = !git add -A && git status
 
-    # Diff what is staged for the next commit
-	dc = diff --cached
+  # Diff what is staged for the next commit
+  dc = diff --cached
 
-	# See last commit
-	lo = log --numstat -1
+  # See last commit
+  lo = log --numstat -1
 
-	# See semi-condensed log 
-	ll = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short --numstat
+  # See semi-condensed log 
+  ll = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short --numstat
 
-	# See condensed log (1 line per commit)
-	ls = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+  # See condensed log (1 line per commit)
+  ls = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
 
 [core]
-	excludesfile = /Users/`whoami`/.gitignore
+  excludesfile = /Users/`whoami`/.gitignore
 
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 
 [fetch]
-	prune = true
+  prune = true
 
 [pager]
-	log = false
+  log = false
