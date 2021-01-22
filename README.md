@@ -1,2 +1,29 @@
-# dotfiles
-My MacOS dotfiles.
+# Joyce's dotfiles
+My MacOS dotfiles (and other files that helps me set up a new Mac).
+
+## Installation 
+
+Feel free to use my defaults/prefered settings, but do read through them first to remove things you don't want. 
+
+You can copy/paste the files you want individually, or to copy everything, run the following:
+
+```bash
+rsync --exclude ".git" \
+		--exclude ".DS_Store" \
+		--exclude "README.md" \
+		--exclude "LICENSE" \
+		--exclude "alias.zsh" \
+		-avh --no-perms ./ ~;
+cp alias.zsh $ZSH_CUSTOM/alias.zsh
+```
+
+## Forking
+
+If you want to fork my dotfiles as a starting point to creating your own, I suggest setting up symbolic links to the files in your repo so you don't have to keep copying them back/forth into your home directory as you update them. You can do so with something similar to this:
+
+```bash
+ln -sv ./.gitignore ~
+ln -sv ./.zshrc ~
+ln -sv ./alias.zsh $ZSH_CUSTOM
+```
+
