@@ -17,9 +17,12 @@ rsync --exclude ".git" \
   --exclude "LICENSE" \
   --exclude "alias.zsh" \
   --exclude "mac-preferences.sh" \
+  --exclude "iterm2_profiles.json" \
   -avh --no-perms ./ ~;
 # Copies over alias.zsh file to your $ZSH_CUSTOM directory. This works only if you use Oh My Zsh.
 cp alias.zsh $ZSH_CUSTOM/alias.zsh
+# Copies over iterm2_profiles.json as a dynamic profile
+cp ./iterm2_profiles.json ~/Library/Application\ Support/iTerm2/DynamicProfiles
 ```
 
 I set my preferred MacOS preferences programatically via `mac-preferences.sh`. To use the script, you can run the following:
@@ -49,8 +52,8 @@ A list of the files and their usages:
 - `.zshrc`: configuration file for Zsh, my preferred shell. 
 - `alias.zsh`: Some alises I use. These could go in the `.zshrc` file, but I keep it separate for better readability. Since I use Oh My Zsh, I prefer to put any customizations in the `$ZSH_CUSTOM` directory.
 - `mac-preferences.sh`: A shell script to set my preferred MacOS preferences programatically
-- `iterm2_profiles.json`: My custom iTerm2 profiles
-  - Customizations for `joycewoo-iterm-default`:
+- `iterm2_profiles.json`: My custom iTerm2 (my preferred Terminal replacement) profiles
+  - Customizations for the profile `joycewoo-iterm-default`:
       - Use Solarized Dark theme
       - Use Source Code Pro font size 13
       - Save terminal logs to ~/Desktop/logs folder
