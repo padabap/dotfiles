@@ -1,3 +1,5 @@
+# Shell script to set up my dafault Mac preferences
+
 echo "Setting Mac preferences..."
 
 # Close any open System Preferences panes, to prevent them from overriding

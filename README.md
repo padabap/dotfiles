@@ -49,3 +49,11 @@ A list of the files and their usages:
 - `.zshrc`: configuration file for Zsh, my preferred shell. 
 - `alias.zsh`: Some alises I use. These could go in the `.zshrc` file, but I keep it separate for better readability. Since I use Oh My Zsh, I prefer to put any customizations in the `$ZSH_CUSTOM` directory.
 - `mac-preferences.sh`: A shell script to set my preferred MacOS preferences programatically
+- `iterm2_profiles.json`: My custom iTerm2 profiles
+  - Customizations for `joycewoo-iterm-default`:
+      - Use Solarized Dark theme
+      - Use Source Code Pro font size 13
+      - Save terminal logs to ~/Desktop/logs folder
+      - Add mac keyboard shortcuts:
+         - Moving between words: option+left/right
+         - Go to start/end of line: cmd+left/right
