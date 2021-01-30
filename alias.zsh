@@ -12,5 +12,5 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 
 # paths
-alias go.h="~/"
-alias go.d="~/Desktop"
+alias go.home="~/"
+alias go.desktop="~/Desktop"

@@ -1,5 +1,5 @@
 # Joyce's dotfiles
-My MacOS dotfiles (and other files that helps me set up a new Mac).
+My dotfiles (and other files that helps me set up a clean install of MacOS).
 
 ## Installation 
 

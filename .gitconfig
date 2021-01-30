@@ -32,5 +32,9 @@
 [fetch]
   prune = true
 
+# Include separate file for personal data: username, email, etc.
+[include]
+  path = ~/.gitconfig.local
+
 [pager]
   log = false
