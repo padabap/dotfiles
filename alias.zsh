@@ -6,11 +6,12 @@ alias la='ls -a'
 alias lla='ls -la'
 
 # cd
-alias ~='cd ~'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
 # paths
-alias go.home="~/"
+# I use the prefix "go." for navigation aliases and set these up for
+# directories I navigate to often
 alias go.desktop="~/Desktop"
+alias go.docs="~/Documents"

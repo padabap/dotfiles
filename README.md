@@ -48,4 +48,4 @@ A list of the files and their usages:
 - `.gitignore`: A global ignore list of all files to exclude from git commits
 - `.zshrc`: configuration file for Zsh, my preferred shell. 
 - `alias.zsh`: Some alises I use. These could go in the `.zshrc` file, but I keep it separate for better readability. Since I use Oh My Zsh, I prefer to put any customizations in the `$ZSH_CUSTOM` directory.
-- `mac-preferences.sh`: A bash script to set my preferred MacOS preferences programatically
+- `mac-preferences.sh`: A shell script to set my preferred MacOS preferences programatically
