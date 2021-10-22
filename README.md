@@ -7,7 +7,7 @@ Feel free to use my defaults/prefered settings, but do read through them first t
 
 You can copy/paste the files you want individually, or to copy everything, run the following code block. 
 
-**Warning:** This code block may overwrite your existing dotfiles!
+**Warning:** This code block may overwrite your existing files!
 
 ```bash
 # Copies over all the cloned files except the ones specifically excluded to your home directory.

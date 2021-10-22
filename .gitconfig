@@ -38,3 +38,6 @@
 
 [pager]
   log = false
+
+[push]
+	default = current
