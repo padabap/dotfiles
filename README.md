@@ -48,6 +48,7 @@ ln -sv ../dotfiles/alias.zsh $ZSH_CUSTOM
 A list of the files and their usages:
 
 - `.gitconfig`: Aliases and other preferences for git
+- `.gitconfig.local`: User name and email for git. Update with your own information.
 - `.gitignore`: A global ignore list of all files to exclude from git commits
 - `.zshrc`: configuration file for Zsh, my preferred shell. 
 - `alias.zsh`: Some alises I use. These could go in the `.zshrc` file, but I keep it separate for better readability. Since I use Oh My Zsh, I prefer to put any customizations in the `$ZSH_CUSTOM` directory.
