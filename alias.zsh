@@ -15,3 +15,8 @@ alias ....='cd ../../..'
 # directories I navigate to often
 alias go.desktop="~/Desktop"
 alias go.docs="~/Documents"
+alias go.dev="~/dev"
+
+# apps
+alias cat='bat --paging=never'
+
